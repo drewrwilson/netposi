@@ -90,6 +90,13 @@
 
      </p>
     </footer>
-
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {  
+   // fade in each image individually as it's downloaded
+   $('img').load(function() {
+       $(this).fadeIn('slow');
+   });
+  });
+</script>
   </body>
 </html>
