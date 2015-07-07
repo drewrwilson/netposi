@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/mailchimp.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
   </head>
 
   <body>
@@ -24,14 +26,16 @@
       </div>
     </header>
 
-    <section class="new-section">
+    <section id="email-subscribe" class="new-section">
       <div class="middle-text">
         <h2>Get notified when there's a new episode</h2>
-        <form class="form-inline">
+        <div id="emailForm"></div>
+
+        <form id="signup" class="form-inline" role="form" action="//netposi.us11.list-manage.com/subscribe/post-json?u=83d51e9a92d8826e8a47647f4&id=ea97ad110f&c=?" method="post">
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+            <input class="form-control input-lg" placeholder="jane.doe@example.com" name="MERGE0" type="email" id="MERGE0" required="required">
           </div>
-          <a class="btn smooth-scroll" href="#start">sign up</a>
+          <button id="submitIt" type="submit" class="btn" href="#">sign up</button>
         </form>
       </div>
     </section>
@@ -96,6 +100,7 @@
    $('header').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/static-bg.gif)'}).animate({opacity: 1}, 500);
    $('.new-section-with-bg').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/green-net.png)'}).animate({opacity: 1}, 500);
   });
+
   </script>
   </body>
 </html>
