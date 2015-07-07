@@ -90,10 +90,12 @@
 
      </p>
     </footer>
-<script type="text/javascript" charset="utf-8">
-   $('img').load(function() {
-       $(this).fadeIn('slow');
-   });
-</script>
+  <script type="text/javascript" charset="utf-8">
+  //fade in background images after loading
+  $(document).ready(function() {
+   $('header').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/static-bg.gif)'}).animate({opacity: 1}, 500);
+   $('.new-section-with-bg').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/green-net.png)'}).animate({opacity: 1}, 500);
+  });
+  </script>
   </body>
 </html>

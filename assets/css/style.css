@@ -5,7 +5,7 @@ body {
 header {
   background-color: #80B959;
   color: #fff;
-  background: url('../img/static-bg.gif');
+  background: url('../img/static-bg.jpg');
   padding: 55px 0;
   min-height: 350px;
   padding-bottom: 1em;
@@ -48,7 +48,7 @@ header {
 }
 .new-section-with-bg {
   background-color: #9AD373;
-  background: url('../img/green-net.png');
+  /*background: url('../img/green-net.png');*/
 }
 
 .post-date {
