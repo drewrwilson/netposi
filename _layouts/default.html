@@ -27,52 +27,57 @@
       </div>
     </header>
 
-    <section id="email-subscribe" class="new-section">
-      <div class="middle-text">
-        <h2>Get notified when there's a new episode</h2>
-        <div id="emailForm"></div>
+<section id="email-subscribe" class="new-section">
+  <div class="middle-text">
+    <h2>Get notified when there's a new episode</h2>
+    <div id="emailForm"></div>
 
-        <form id="signup" class="form-inline" role="form" action="//netposi.us11.list-manage.com/subscribe/post-json?u=83d51e9a92d8826e8a47647f4&id=ea97ad110f&c=?" method="post">
-          <div class="form-group">
-            <input class="form-control input-lg" placeholder="jane.doe@example.com" name="MERGE0" type="email" id="MERGE0" required="required">
-          </div>
-          <button id="submitIt" type="submit" class="btn" href="#">sign up</button>
-        </form>
+    <form id="signup" class="form-inline" role="form" action="//netposi.us11.list-manage.com/subscribe/post-json?u=83d51e9a92d8826e8a47647f4&id=ea97ad110f&c=?" method="post">
+      <div class="form-group">
+        <input class="form-control input-lg" placeholder="jane.doe@example.com" name="MERGE0" type="email" id="MERGE0" required="required">
       </div>
-    </section>
-    <section id="subscribe" class="new-section new-section-with-bg">
-      <div class="middle-text">
-        <h3>Subscribe</h3>
-            <p>
-              <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" />
-              <img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" />
-              {% if site.contact.twitter %}
-              <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-square-o fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x"></i>
-                </span>
-              </a>
-              {% endif %}
+      <button id="submitIt" type="submit" class="btn" href="#">sign up</button>
+    </form>
+  </div>
+</section>
 
-            </p>
-      </div>
-      <div class="text-center">
-
-        <span class="subscribe-feed-link">{{site.feed}}</span>
-        <br>
-        <br>
-      </div>
-
-    </section>
+<!--
 
 
-    <main class="container">
-      <h1>Episodes</h1>
-      {{ content }}
-    </main>
+<section id="subscribe" class="new-section new-section-with-bg">
+  <div class="middle-text">
+    <h3>Subscribe</h3>
+        <p>
+          <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" />
+          <img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" />
+          {% if site.contact.twitter %}
+          <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+          </a>
+          {% endif %}
+
+        </p>
+  </div>
+  <div class="text-center">
+
+    <span class="subscribe-feed-link">{{site.feed}}</span>
+    <br>
+    <br>
+  </div>
+
+</section>
 
 
+<main class="container">
+  <h1>Episodes</h1>
+  {{ content }}
+</main>
+
+
+-->
     <footer>
      <p class="text-center">
        {% if site.contact.email || site.contact.phone || site.contact.fax %}
