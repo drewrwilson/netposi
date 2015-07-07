@@ -5,7 +5,8 @@ body {
 header {
   background-color: #80B959;
   color: #fff;
-  background: url('../img/static-bg.jpg');
+  background: url('../img/static-bg.jpg')no-repeat;
+  background-size: 100%;
   padding: 55px 0;
   min-height: 350px;
   padding-bottom: 1em;
