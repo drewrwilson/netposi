@@ -1,13 +1,14 @@
-title: "NetPositive, a podcast about activism & technology"
-# baseurl: "/"
+name: NetPositive
+description: A podcast about activism & technology
+url: http://netposi.com
 permalink: /:categories/:title
 img_dir: "/assets/img/"
 contact:
   twitter: "netposi"
-  email: "yourname@example.com"
+  email: "info@netposi.com"
   github:
   phone:
   fax:
-yourname: Drew Wilson
+yourname: Net Positive
 feed: 'http://example.com/feed'
 year: 2015
