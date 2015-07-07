@@ -1,0 +1,13 @@
+title: "NetPositive, a podcast about activism & technology"
+# baseurl: "/"
+permalink: /:categories/:title
+img_dir: "/assets/img/"
+contact:
+  twitter: "netposi"
+  email: "yourname@example.com"
+  github:
+  phone:
+  fax:
+yourname: Drew Wilson
+feed: 'http://example.com/feed'
+year: 2015

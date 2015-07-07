@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> {% if page.title %} {{ page.title }} | {% endif %} {{site.title}} </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{{site.img_dir}}favicon.ico">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container welcome-content">
+        <div class="middle-text" id="netposi">
+						<h1><b>NET</b>POSITIVE</h1>
+						<h2>a podcast where we talk about <br><b>activism</b> & <b>technology</b> </h2>
+					</div>
+      </div>
+    </header>
+
+    <section class="new-section">
+      <div class="middle-text">
+        <h2>Get notified when there's a new episode</h2>
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+          </div>
+          <a class="btn smooth-scroll" href="#start">sign up</a>
+        </form>
+      </div>
+    </section>
+    <section id="subscribe" class="new-section new-section-with-bg">
+      <div class="middle-text">
+        <h3>Subscribe</h3>
+            <p>
+              <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" />
+              <img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" />
+              {% if site.contact.twitter %}
+              <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-square-o fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x"></i>
+                </span>
+              </a>
+              {% endif %}
+
+            </p>
+      </div>
+      <div class="text-center">
+
+        <span class="subscribe-feed-link">{{site.feed}}</span>
+        <br>
+        <br>
+      </div>
+
+    </section>
+
+
+    <main class="container">
+      <h1>Episodes</h1>
+      {{ content }}
+    </main>
+
+
+    <footer>
+     <p class="text-center">
+       {% if site.contact.email || site.contact.phone || site.contact.fax %}
+       Have an idea about a topic or guest for an episode? Get in touch: <br> <br>
+       {% endif %}
+
+       {% if site.contact.email %} Email: <i class="fa fa-envelope fa-fw"></i> {{site.contact.email}} <br>{% endif %}
+       {% if site.contact.phone %} Phone: <i class="fa fa-phone fa-fw"></i> {{site.contact.phone}} <br>{% endif %}
+       {% if site.contact.fax %} Fax: <i class="fa fa-phone fa-fw"></i> fax {{site.contact.fax}}  <br>{% endif %}
+
+       {% if site.contact.twitter %}
+       <br>
+       <a href="https://twitter.com/{{site.contact.twitter}}">
+         <span class="fa-stack fa-lg">
+           <i class="fa fa-square-o fa-stack-2x"></i>
+           <i class="fa fa-twitter fa-stack-1x"></i>
+         </span>
+       </a>
+       {% endif %}
+
+     </p>
+    </footer>
+
+  </body>
+</html>

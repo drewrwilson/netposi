@@ -1,0 +1,127 @@
+body {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+header {
+  background-color: #80B959;
+  color: #fff;
+  background: url('../img/static-bg.gif');
+  padding: 55px 0;
+  min-height: 350px;
+  padding-bottom: 1em;
+  position: relative;
+}
+.middle-text {
+  text-align: center;
+  position: relative;
+  vertical-align: middle;
+  z-index: 20;
+}
+.welcome-content {
+  min-height: 200px;
+}
+
+.btn {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0 26px;
+  line-height: 38px;
+  display: inline-block;
+  margin: 0 10px 4px 0;
+  height: 40px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  background: #80B959;
+  color: #fff;
+  border: 1px solid #80B959;
+  border-radius: 4px;
+}
+
+.new-section {
+  padding: 25px 0;
+  padding-bottom: 1em;
+  position: relative;
+}
+.new-section-with-bg {
+  background-color: #9AD373;
+  background: url('../img/green-net.png');
+}
+
+.post-date {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  color: #9f9f9f;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+a {
+	font-weight: bold;
+	color: #80B959;
+	border-bottom: 1px solid rgba(198, 70, 61, 0);
+	-webkit-transition: border 0.2s;
+	-moz-transition: border 0.2s;
+	transition: border 0.2s;
+}
+a:hover {
+	border-bottom: 1px solid #80B959;
+	text-decoration: none;
+	color: #80B959;
+}
+
+footer {
+  width: 100%;
+  background-color: #80B959;
+  padding: 50px 25px 100px 25px;
+  color: #fff;
+}
+
+/*footer a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transition: border 0.2s;
+	-moz-transition: border 0.2s;
+	transition: border 0.2s;
+}
+footer a:hover {
+
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+}*/
+#fin {
+  padding-bottom: 40px;
+}
+
+.subscribe-icon {
+  max-height: 50px;
+  padding-right: 30px;
+}
+
+.subscribe-feed-link {
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+  border: 1px solid #d5d5d5;
+  color: #7e7e81;
+  padding: 1rem;
+  margin: 0 auto 1.5rem;
+  overflow: scroll;
+  font-size: .90rem;
+}
+#subscribe-twitter {
+  color: #000;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+}
