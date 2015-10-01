@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Start Today HEY
-thumbnail: 'placeholder.png'
+title: Start Today
+thumbnail: 
 tags:
 teaser:
 images:
