@@ -41,15 +41,15 @@
   </div>
 </section>
 
-<!--
+
 
 
 <section id="subscribe" class="new-section new-section-with-bg">
   <div class="middle-text">
     <h3>Subscribe</h3>
         <p>
-          <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" />
-          <img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" />
+          <!-- <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" /> -->
+          <a href="https://soundcloud.com/netposi/"><img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" /></a>
           {% if site.contact.twitter %}
           <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
             <span class="fa-stack fa-lg">
@@ -61,23 +61,43 @@
 
         </p>
   </div>
-  <div class="text-center">
+  <!-- <div class="text-center">
 
     <span class="subscribe-feed-link">{{site.feed}}</span>
     <br>
     <br>
-  </div>
+  </div> -->
 
 </section>
 
 
 <main class="container">
   <h1>Episodes</h1>
-  {{ content }}
+  <div id="start" class="container content">
+    {% for post in site.posts %}
+      <article class="clearfix">
+        <h2>{{post.title}}</h2>
+        <div class="post-date">
+          {{ post.date | date: "%B %d, %Y" }}
+        </div>
+
+        <p>
+          {{ post.content }}
+        </p>
+      </article>
+      <hr>
+    {% endfor %}
+      <div id="fin" class="text-center" >
+        <i class="fa fa-rocket fa-2x"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 
--->
+
     <footer>
      <p class="text-center">
        {% if site.contact.email || site.contact.phone || site.contact.fax %}
