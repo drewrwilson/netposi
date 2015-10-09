@@ -1,5 +1,18 @@
 body {
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  /*font-family: "Open Sans", helvetica, arial, sans-serif;*/
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-size: 2.1em;
+}
+
+h2 {
+  font-size: 1.9em;
+}
+
+h3 {
+  font-size: 1.7em;
 }
 
 header {
@@ -21,10 +34,14 @@ header {
 }
 .welcome-content {
   min-height: 200px;
+  background-color: #F4F4F4;
+  /*padding-top: 3%;*/
 }
 
+
+
 .btn {
-  font-family: "Open Sans", helvetica, arial, sans-serif;
+  /*font-family: "Open Sans", helvetica, arial, sans-serif;*/
   font-size: 13px;
   cursor: pointer;
   padding: 0 26px;
@@ -45,7 +62,7 @@ header {
 
 .new-section {
   padding: 25px 0;
-  padding-bottom: 1em;
+  padding-bottom: 4em;
   position: relative;
 }
 .new-section-with-bg {
@@ -64,38 +81,42 @@ header {
 }
 
 a {
-	font-weight: bold;
-	color: #80B959;
-	border-bottom: 1px solid rgba(198, 70, 61, 0);
-	-webkit-transition: border 0.2s;
-	-moz-transition: border 0.2s;
-	transition: border 0.2s;
+  font-weight: bold;
+  color: #80B959;
+  border-bottom: 1px solid rgba(198, 70, 61, 0);
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  transition: border 0.2s;
 }
 a:hover {
-	border-bottom: 1px solid #80B959;
-	text-decoration: none;
-	color: #80B959;
+  border-bottom: 1px solid #80B959;
+  text-decoration: none;
+  color: #80B959;
 }
 
 footer {
   width: 100%;
-  background-color: #80B959;
-  padding: 50px 25px 100px 25px;
+  background-color: #333333;
+  /*padding: 50px 25px 100px 25px;*/
+  padding: 21px 7px;
   color: #fff;
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  /*z-index: 100;*/
 }
 
 /*footer a {
-	color: #fff;
-	border-bottom: 1px solid #fff;
-	-webkit-transition: border 0.2s;
-	-moz-transition: border 0.2s;
-	transition: border 0.2s;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  transition: border 0.2s;
 }
 footer a:hover {
 
-	border-bottom: 1px solid #fff;
-	text-decoration: none;
-	color: #fff;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
 }*/
 #fin {
   padding-bottom: 40px;
@@ -127,4 +148,73 @@ footer a {
 
 footer a:hover {
   color: #fff;
+}
+
+/*new styles*/
+nav {
+  position: fixed;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+.logo {
+  padding: 7px 14px;
+}
+.logo img {
+  width: 100px;
+}
+.episodes {
+  background-color: white;
+  padding: 9% 28px 21% 28px;
+}
+.p-0 {
+  padding: 0;
+}
+.p-7 {
+  padding: 7;
+}
+.ptp-7 {
+  padding-top: 7%;
+}
+.ptp-14 {
+  padding-top: 14%;
+}
+.col-50 {
+  width: 50%;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+
+
+@media only screen and (min-width : 600px) {
+  .welcome-content {
+    position: fixed;
+    float: left;
+    height: 100%;
+  }
+  section#subscribe {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .welcome-content {
+    position: relative;
+    padding-top:  14%;
+  }
+  .col-50 {
+    width: 100%;
+  }
 }
