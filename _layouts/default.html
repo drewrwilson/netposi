@@ -27,14 +27,14 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 welcome-content p-0">
+        <div class="col-50 welcome-content p-0">
           <div class="middle-text ptp-7" id="netposi">
             <h1><b>NET</b>POSI</h1>
-            <h2>a podcast where we talk about <br><b>activism</b> & <b>technology</b> </h2>
+            <h2 class="p-7">a podcast where we talk about <br><b>activism</b> & <b>technology</b> </h2>
           </div>
           <section id="email-subscribe" class="new-section">
             <div class="middle-text">
-              <h3>Get notified when there's a new episode</h3>
+              <h3 class="p-7">Get notified when there's a new episode</h3>
               <div id="emailForm"></div>
 
               <form id="signup" class="form-inline" role="form" action="//netposi.us11.list-manage.com/subscribe/post-json?u=83d51e9a92d8826e8a47647f4&id=ea97ad110f&c=?" method="post">
@@ -48,30 +48,23 @@
           <section id="subscribe" class="new-section new-section-with-bg">
             <div class="middle-text">
               <h3>Subscribe</h3>
-                  <p>
-                    <!-- <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" /> -->
-                    <a href="https://soundcloud.com/netposi/"><img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" /></a>
-                    {% if site.contact.twitter %}
-                    <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
-                      <span class="fa-stack fa-lg">
-                        <i class="fa fa-square-o fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x"></i>
-                      </span>
-                    </a>
-                    {% endif %}
-
-                  </p>
+              <p>
+                <!-- <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" /> -->
+                <a href="https://soundcloud.com/netposi/"><img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" /></a>
+                {% if site.contact.twitter %}
+                <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-square-o fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+              </p>
             </div>
-            <!-- <div class="text-center">
-
-              <span class="subscribe-feed-link">{{site.feed}}</span>
-              <br>
-              <br>
-            </div> -->
-
           </section>
+          {% include footer.html %}
         </div>
-        <div class="col-sm-6 p-0">
+        <div class="col-50 pull-right p-0">
           <div class="episodes">
             <h2>Episodes</h2>
             <div id="start" class="content">
@@ -99,25 +92,7 @@
       </div>
     </div>
 
-  <footer>
-   <div class="text-center">
-     {% if site.contact.email || site.contact.phone || site.contact.fax %}
-     <p>Have an idea about a topic or guest for an episode? Get in touch:</p>
-     {% endif %}
-     {% if site.contact.email %} Email: <i class="fa fa-envelope fa-fw"></i> {{site.contact.email}} <br>{% endif %}
-     {% if site.contact.phone %} Phone: <i class="fa fa-phone fa-fw"></i> {{site.contact.phone}} <br>{% endif %}
-     {% if site.contact.fax %} Fax: <i class="fa fa-phone fa-fw"></i> fax {{site.contact.fax}}  <br>{% endif %}
 
-     {% if site.contact.twitter %}
-     <a href="https://twitter.com/{{site.contact.twitter}}">
-       <span class="fa-stack fa-lg">
-         <i class="fa fa-square-o fa-stack-2x"></i>
-         <i class="fa fa-twitter fa-stack-1x"></i>
-       </span>
-     </a>
-     {% endif %}
-   </div>
-  </footer>
 
   <script type="text/javascript" charset="utf-8">
   //fade in background images after loading

@@ -1,0 +1,19 @@
+  <footer>
+   <div class="text-center">
+     {% if site.contact.email || site.contact.phone || site.contact.fax %}
+     <p>Have an idea about a topic or guest for an episode? Get in touch:</p>
+     {% endif %}
+     {% if site.contact.email %} Email: <i class="fa fa-envelope fa-fw"></i> {{site.contact.email}} <br>{% endif %}
+     {% if site.contact.phone %} Phone: <i class="fa fa-phone fa-fw"></i> {{site.contact.phone}} <br>{% endif %}
+     {% if site.contact.fax %} Fax: <i class="fa fa-phone fa-fw"></i> fax {{site.contact.fax}}  <br>{% endif %}
+
+     {% if site.contact.twitter %}
+     <a href="https://twitter.com/{{site.contact.twitter}}">
+       <span class="fa-stack fa-lg">
+         <i class="fa fa-square-o fa-stack-2x"></i>
+         <i class="fa fa-twitter fa-stack-1x"></i>
+       </span>
+     </a>
+     {% endif %}
+   </div>
+  </footer>
