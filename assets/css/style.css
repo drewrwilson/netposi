@@ -61,10 +61,17 @@ header {
 }
 
 .new-section {
-  padding: 25px 0;
+  padding: 14px 0;
   padding-bottom: 4em;
   position: relative;
 }
+
+@media only screen and (width : 960px) {
+  .new-section {
+    padding-bottom: 1em;
+  }
+
+}  
 .new-section-with-bg {
   background-color: #9AD373;
   /*background: url('../img/green-net.png');*/
@@ -94,16 +101,7 @@ a:hover {
   color: #80B959;
 }
 
-footer {
-  width: 100%;
-  background-color: #333333;
-  /*padding: 50px 25px 100px 25px;*/
-  padding: 21px 7px;
-  color: #fff;
-  /*position: fixed;*/
-  /*bottom: 0;*/
-  /*z-index: 100;*/
-}
+
 
 /*footer a {
   color: #fff;
@@ -191,13 +189,13 @@ nav {
 }
 
 
-@media only screen and (min-width : 600px) {
+@media only screen and (min-width : 667px) {
   .welcome-content {
     position: fixed;
     float: left;
     height: 100%;
   }
-  section#subscribe {
+/*  section#subscribe {
     position: absolute;
     width: 100%;
     bottom: 100px;
@@ -206,10 +204,10 @@ nav {
     position: absolute;
     width: 100%;
     bottom: 0;
-  }
+  }*/
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 667px) {
   .welcome-content {
     position: relative;
     padding-top:  14%;
@@ -217,4 +215,28 @@ nav {
   .col-50 {
     width: 100%;
   }
+}
+
+#netposi {
+  height: 30%;
+}
+
+#email-subscribe {
+  height: 30%;
+}
+
+#subscribe {
+  height: 20%;
+}
+
+footer {
+  width: 100%;
+  background-color: #333333;
+  /*padding: 50px 25px 100px 25px;*/
+  padding: 21px 7px;
+  height: 20%;
+  color: #fff;
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  /*z-index: 100;*/
 }
