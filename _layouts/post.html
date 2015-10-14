@@ -1,3 +1,40 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+
+	{% include head.html %}	
+
+  <body>
+		{% include header.html %}
+		<div class="container post">
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-3">
+					<div class="episode-card">
+				    <h4>Episode {{ page.episode_number }}</h4>
+				    <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+				    <h4>with {{ page.guest }}</h4>
+				    <img src="/assets/img/{{page.image}}" class="img-circle img-responsive" alt="">              
+					</div>
+				</div>
+				<div class="col-sm-7">
+      		{{ content }}
+			    <div class=""><i class="fa fa-facebook-official fa-1x"></i> <span>Share</span> <i class="fa fa-twitter-square fa-1x"></i> Tweet</div>
+			    <div class="pt-14">
+			    	{{ page.description }}
+			    	<p class="pt-14">Shoutouts:</p>
+			    	<ul class="pt-7">
+			    		{% for shoutout in page.shoutouts %}
+			    			<li>{{shoutout}}</li>
+			    		{% endfor %}
+			    	</ul>
+			    </div>
+			    <h5 class="pt-14">Enjoyed this episode? <a href="{{site.url}}/#episodes">Check out other episodes.</a></h5>
+				</div>
+			</div>
+		</div>	
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
