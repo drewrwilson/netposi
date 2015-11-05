@@ -29,7 +29,7 @@
               <h3>Subscribe</h3>
               <p>
                 <!-- <img src="/assets/img/itunes.png" alt="" class="subscribe-icon" /> -->
-                <a href="https://soundcloud.com/netposi/"><img src="/assets/img/soundcloud.png" alt="" class="subscribe-icon" /></a>
+                <a href="https://soundcloud.com/netposi/"><img src="{{site.baseurl}}/assets/img/soundcloud.png" alt="" class="subscribe-icon" /></a>
                 {% if site.contact.twitter %}
                 <a id="subscribe-twitter" href="https://twitter.com/{{site.contact.twitter}}">
                   <span class="fa-stack fa-lg">
@@ -49,7 +49,7 @@
             <div class="col-xs-1"></div>
             <div class="col-xs-7">
               <h5>Episode {{ post.episode_number }}</h5>
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
               <h4>with {{ post.guest }}</h4>
             </div>
             <div class="col-xs-3">
@@ -97,16 +97,5 @@
         {% include footer.html %}
       </div>
     </div>
-
-
-
-  <script type="text/javascript" charset="utf-8">
-  //fade in background images after loading
-  $(document).ready(function() {
-   $('header').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/static-bg.gif)'}).animate({opacity: 1}, 500);
-   $('.new-section-with-bg').animate({opacity: 0}, 0).css({'background-image': 'url(/assets/img/green-net.png)'}).animate({opacity: 1}, 500);
-  });
-
-  </script>
   </body>
 </html>
