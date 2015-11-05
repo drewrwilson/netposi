@@ -3,7 +3,7 @@ layout: post
 title: Title of Cory's episode
 guest: Cory Doctorow
 thumbnail:
-episode_number: 1
+episode_number: 2
 tags:
 teaser:
 image: Cory_Doctorow.jpg

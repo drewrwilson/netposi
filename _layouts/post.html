@@ -21,12 +21,14 @@
 			    <div class=""><i class="fa fa-facebook-official fa-1x"></i> <span>Share</span> <i class="fa fa-twitter-square fa-1x"></i> Tweet</div>
 			    <div class="pt-14">
 			    	{{ page.description }}
+			    	{% unless page.shoutouts == nil %}
 			    	<p class="pt-14">Shoutouts:</p>
 			    	<ul class="pt-7">
 			    		{% for shoutout in page.shoutouts %}
 			    			<li>{{shoutout}}</li>
 			    		{% endfor %}
 			    	</ul>
+			    	{% endunless %}
 			    </div>
 			    <h5 class="pt-14">Enjoyed this episode? <a href="{{site.url}}/#episodes">Check out other episodes.</a></h5>
 				</div>
