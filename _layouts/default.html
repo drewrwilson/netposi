@@ -75,7 +75,7 @@
             <div id="start" class="content">
               {% for post in site.posts %}
               <article class="clearfix">
-                <h3>{{post.title}}</h3>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="black"><h3>{{post.title}}</h3></a>
                 <div class="post-date">
                   {{ post.date | date: "%B %d, %Y" }}
                 </div>
