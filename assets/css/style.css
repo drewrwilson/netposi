@@ -79,7 +79,7 @@ header {
     padding-bottom: 1em;
   }
 
-}  
+}
 .new-section-with-bg {
   background-color: #9AD373;
   /*background: url('../img/green-net.png');*/
@@ -144,7 +144,7 @@ footer a:hover {
   overflow: scroll;
   font-size: .90rem;
 }
-#subscribe-twitter {
+.subscribe-icon, .subscribe-icon:hover {
   color: #000;
 }
 
