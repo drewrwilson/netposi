@@ -9,7 +9,7 @@ teaser:
 image: wendy-seltzer-chilling-effects/wendy.jpg
 images:
 published: true
-description: Lawyer and activist Wendy Seltzer explains how victims of copyright are using Lumen Database to help researchers chart out the negative impacts of these takedown notices
+description: Lawyer and activist Wendy Seltzer explains how targets of takedown notices take down notices are using Lumen Database to help researchers chart out the negative impacts of overzealous copyright enforcement
 shoutouts:
 ---
 
