@@ -39,6 +39,7 @@ header {
   position: relative;
   vertical-align: middle;
   z-index: 20;
+  height: 32vh;
 }
 .welcome-content {
   min-height: 200px;
@@ -72,6 +73,7 @@ header {
   padding: 14px 0;
   padding-bottom: 4em;
   position: relative;
+  height: 40vh;
 }
 
 @media only screen and (width : 960px) {
@@ -109,21 +111,12 @@ a:hover {
   color: #80B959;
 }
 
-
-
-/*footer a {
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transition: border 0.2s;
-  -moz-transition: border 0.2s;
-  transition: border 0.2s;
+form#mc-embedded-subscribe-form {
+  padding-top: 14px;
+  padding-left: 14px;
+  padding-bottom: 14px;
 }
-footer a:hover {
 
-  border-bottom: 1px solid #fff;
-  text-decoration: none;
-  color: #fff;
-}*/
 #fin {
   padding-bottom: 40px;
 }
@@ -257,19 +250,15 @@ nav {
 }
 
 #subscribe {
-  height: 20%;
+  height: 26vh;
 }
 
 footer {
   width: 100%;
   background-color: #333333;
-  /*padding: 50px 25px 100px 25px;*/
   padding: 21px 7px;
   height: 20%;
   color: #fff;
-  /*position: fixed;*/
-  /*bottom: 0;*/
-  /*z-index: 100;*/
 }
 
 .episode-card {

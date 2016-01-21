@@ -4,7 +4,7 @@ title: Start Today
 thumbnail:
 tags:
 teaser:
-images:
+image: netposi-icon-1400x1400.png
 published: true
 ---
 
