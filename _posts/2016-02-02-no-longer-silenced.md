@@ -5,7 +5,7 @@ guest: Rosemarie Lerner
 episode_number: 5
 image: no-longer-silenced/roslerner-lg.jpg
 published: true
-description: Transmedia artist Rosemarie Lerner discusses how her interactive documentary and archival project is giving a voice to the survivors of Peru's State-sponsored forced sterilized program from the 1990’s.
+description: Transmedia artist Rosemarie Lerner discusses how her interactive documentary and archival project is giving a voice to the survivors of Peru's State-sponsored forced sterilization program from the 1990’s.
 ---
 
 In this episode [Rosemarie Lerner](https://twitter.com/roslerner) tells us about [Quipu](https://interactive.quipu-project.com/), her transmedia documentary which is creating a digital archive with the testimonies of the people who were sterilized against their will in Peru in the 90s during Fujimori's regime. Leveraging on the power of the Web, Quipu seeks justice for the hundreds of people who have been waiting to be heard for decades.
