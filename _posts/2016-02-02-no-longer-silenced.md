@@ -14,3 +14,4 @@ In this episode [Rosemarie Lerner](https://twitter.com/roslerner) tells us about
 
 ### Available in other formats:
   * [mp3 direct download](/assets/audio/osemarie-lerner-no-longer-silenced.mp3)
+  * Edited transcript of the show: [No longer silenced (Medium)](https://medium.com/@drewwilson/finding-alternatives-to-clicktivism-316f16670787)
