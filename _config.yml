@@ -1,6 +1,6 @@
 name: NetPositive
 description: A podcast about activism & technology
-url: http://netposi.com
+url: https://netposi.com
 permalink: /:categories/:title
 img_dir: "/assets/img/"
 contact:
