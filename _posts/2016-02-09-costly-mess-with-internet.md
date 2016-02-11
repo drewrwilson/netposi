@@ -12,4 +12,4 @@ socialmediaimage: dont-mess-with-the-internet.jpg
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246204487&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-Edited transcript: [Making it politically costly to mess with the Internet] (Medium)](https://medium.com/@drewwilson/making-it-politically-costly-to-mess-with-the-internet-388da60a8e61)
+Edited transcript: [Making it politically costly to mess with the Internet (Medium)](https://medium.com/@drewwilson/making-it-politically-costly-to-mess-with-the-internet-388da60a8e61)
