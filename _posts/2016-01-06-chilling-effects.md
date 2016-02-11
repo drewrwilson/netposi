@@ -11,6 +11,7 @@ images:
 published: true
 description: Lawyer and activist Wendy Seltzer explains how targets of takedown notices are using Lumen Database to help researchers chart out the negative impacts of overzealous copyright enforcement
 shoutouts:
+socialmediaimage: netposi-16x9-1400.jpg
 ---
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240706287&amp;color=9ad373&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
