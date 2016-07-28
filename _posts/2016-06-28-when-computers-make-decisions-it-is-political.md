@@ -5,7 +5,7 @@ guest: David Robinson
 episode_number: 7
 image: naming-names/david-robinson.png
 published: true
-description: David Robinson founded Upturn, a tech-policy consultancy that focuses on civil rights and social justice. In this episode he talks about getting Google to banned predatory "payday loan" advertisements and how he came to focus on public interest work at the intersection of law and technology.
+description: David Robinson founded Upturn, a tech-policy consultancy that focuses on civil rights and social justice. In this episode he talks about getting Google to banned predatory payday loan advertisements and how he came to focus on public interest work at the intersection of law and technology.
 socialmediaimage: david-robinson-vs-goliath-jk-not-really.jpg
 
 ---
